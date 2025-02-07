@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+</head>
+<body>
+  <div>
+    <a href="#home">Home</a> |
+    <a href="#about">About</a> |
+    <a href="#work">Work</a> |
+    <a href="#resume">Resume</a> |
+    <a href="#contact">Contact</a>
+  </div>
+  <div id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi! This is my simple portfolio page. Feel free to explore!</p>
+  </div>
+
+  
+  <div id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a beginner web developer learning HTML. I love creating simple and clean websites.</p>
+    <p>Here's a short video introduction:</p>
+  </div>
+  <div id="work">
+    <h2>My Work</h2>
+    <p>Here are some projects I've worked on:</p>
+    <ul>
+      <li>Project 1: A simple website</li>
+      <li>Project 2: A blog page</li>
+      <li>Project 3: A contact form</li>
+    </ul>
+    <p>Here's a video of one of my projects:</p>
+    <iframe
+      width="300"
+      height="200"
+      src="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjT5O2aubKLAxVP6QIHHajWAKUQtwJ6BAgTEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-OmuP6t9Rjo&usg=AOvVaw3sRbUZgjQU8hKnp2aHU_-s&opi=89978449"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+   
+  </div>
+  <div id="resume">
+    <h2>Resume</h2>
+    <p>Here's a summary of my skills and experience:</p>
+    <table border="1">
+      <tr>
+        <th>Skill</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </div>
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
